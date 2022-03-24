@@ -1,5 +1,6 @@
 
 public class Character1
 {
-    public String name;
+    public String firstName;
+    public String surname;
 };

@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 class Main {
   public static void main(String[] args) {
-    Character1Run();    
+    Character2Run();    
   }
 
   public static void Character1Run()
@@ -12,27 +12,32 @@ class Main {
     ArrayList<Character1> characters = new ArrayList<Character1>();
 
     Character1 c = new Character1();
-    c.name = "Zaphod Beeblebrox";
+    c.firstName = "Zaphod";
+    c.surname = "Beeblebrox";
     characters.add(c);
 
     c = new Character1();
-    c.name = "Ford Prefect";
+    c.firstName = "Ford";
+    c.surname = "Perfect";
     characters.add(c);
 
     c = new Character1();
-    c.name = "Arthur Dent";
+    c.firstName = "Arthur";
+    c.surname = "Dent";
     characters.add(c);
 
     c = new Character1();
-    c.name = "Deep Thought";
+    c.firstName = "Deep";
+    c.surname = "Thought";
     characters.add(c);
 
     c = new Character1();
-    c.name = "Tricia McMillan";
+    c.firstName = "Tricia";
+    c.surname = "McMillan";
     characters.add(c);
 
     for (Character1 x: characters) {
-        System.out.println(x.name);
+        System.out.println(x.firstName + " " + x.surname);
     }
   }
   public static void Character2Run()

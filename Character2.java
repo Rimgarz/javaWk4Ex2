@@ -1,13 +1,16 @@
 public class Character2
 {
-    private String name;
+    public String firstName;
+    public String surname;
 
     public void setName(String n) {
-        name = n;
+        String names[] = n.split(" ");
+        firstName = names[0];
+        surname = names[1];
     }
 
     public String getName() {
-        return name;
+        return (firstName + " " + surname);
     }
 };
 
